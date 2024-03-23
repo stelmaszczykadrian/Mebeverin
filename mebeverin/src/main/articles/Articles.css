@@ -1,0 +1,117 @@
+.articles-main-container {
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.articles-container {
+    display: flex;
+}
+
+.articles-header {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 221px;
+    height: 53px;
+    border-radius: 178px;
+    background: #446EC2;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+
+.article-title {
+    font-family: var(--main-font);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.article-author {
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 1rem;
+}
+
+.article-divider {
+    border-radius: 65px;
+    background: #446EC2;
+    width: 23px;
+    height: 5px;
+    margin-top: 15px;
+    left: 50%;
+    margin-bottom: 20px;
+}
+
+.article-description {
+    width: 385px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 2rem;
+}
+
+.article-content {
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+}
+
+.article-button {
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 194px;
+    height: 69px;
+    border: none;
+    border-radius: 58px;
+    box-shadow: 0 9px 8px 0 rgba(255, 150, 90, 0.36);
+    background-color: #FF965A;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.dot {
+    width: 11px;
+    height: 11px;
+    background-color: #446EC2;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #007bff;
+    opacity: 1;
+    box-shadow: 0 0 5px #446EC2;
+}
+
+.articles-arrow-right {
+    margin-top: 3rem;
+    cursor: pointer;
+}
