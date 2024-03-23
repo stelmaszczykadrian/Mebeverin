@@ -1,0 +1,110 @@
+.podcast {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.podcast-header {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 221px;
+    height: 53px;
+    border-radius: 178px;
+    background: #446EC2;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+
+.podcast-content {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.podcast-list-item {
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.podcast-container {
+    position: relative;
+}
+
+.podcast-arrows {
+    position: absolute;
+    bottom: -7rem;
+}
+
+.podcast-image {
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.podcast-arrow-left {
+    margin-left: 50px;
+}
+
+.podcast-arrow-left,
+.podcast-arrow-right {
+    cursor: pointer;
+}
+
+.podcast-title {
+    margin-top: 20px;
+    width: 553px;
+    color: #171717;
+    font-family: var(--main-font);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.podcast-subtitle {
+    margin-top: 20px;
+    width: 436px;
+    color: #171717;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.podcast-audio {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.podcast-list-item.active {
+    font-weight: bold;
+    position: relative;
+}
+
+.podcast-list-item.active::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 86px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 29px;
+    background: #446EC2;
+}
