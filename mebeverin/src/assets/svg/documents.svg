@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="61" viewBox="0 0 71 61" fill="none">
+    <path d="M37.1542 46.5137H4.50732C2.78839 46.5137 1.39453 45.1198 1.39453 43.4009V4.26392C1.39453 2.54419 2.78839 1.15039 4.50732 1.15039H60.5445C62.2643 1.15039 63.658 2.54419 63.658 4.26392V18.0035" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="18.7153" y1="8.66504" x2="46.3374" y2="8.66504" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="24.8823" y1="14.167" x2="40.1703" y2="14.167" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M44.0947 50.8481V59.2172L51.9342 54.2354L59.7736 59.2172V50.8481" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="56.9443" cy="39.9863" r="9.56061" transform="rotate(-42.4398 56.9443 39.9863)" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M47.3413 33.1477L51.0724 36.8787L57.1712 30.7798" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M49.0804 20.448L51.8688 16.79L54.6689 20.4391L58.704 18.2316L59.7778 22.7042L64.3619 22.3286L63.5237 26.8512L67.8644 28.3727L65.2591 32.1634L68.6055 35.319L64.6837 37.7222L66.4574 41.9661L61.8971 42.5663L61.7913 47.1648L57.3812 45.8583L55.4142 50.0161L51.9167 47.0289L48.4288 50.0272L46.4485 45.8756L42.0426 47.196L41.9222 42.598L37.36 42.0121L39.1202 37.7627L35.1909 35.3718L38.5273 32.2057L35.9101 28.4233L40.2459 26.8881L39.3933 22.3682L43.9787 22.7291L45.0382 18.2532L49.0804 20.448Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="12.1201" y1="24.9258" x2="11.279" y2="24.9258" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="12.1201" y1="30.4272" x2="11.279" y2="30.4272" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="12.1201" y1="35.9292" x2="11.279" y2="35.9292" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="17.813" y1="24.9258" x2="27.9421" y2="24.9258" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="17.813" y1="30.4272" x2="27.9421" y2="30.4272" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="17.813" y1="35.9292" x2="27.9421" y2="35.9292" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
