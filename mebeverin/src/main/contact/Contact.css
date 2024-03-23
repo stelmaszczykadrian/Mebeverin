@@ -1,0 +1,213 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F6F9FF;
+    width: 1920px;
+}
+
+.contact-header {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+}
+.contact-title {
+    margin-top: 2rem;
+    margin-bottom: 30px;
+    width: 223px;
+    height: 53px;
+    border-radius: 178px;
+    background: #446EC2;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+
+.contact-subtitle {
+    width: 617px;
+    font-family: var(--main-font);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.contact-divider {
+    border-radius: 65px;
+    background: #FF965A;
+    width: 23px;
+    height: 5px;
+    margin-top: 15px;
+    left: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-logo {
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.contact-primary {
+    color: #FF965A;
+    font-family: var(--main-font);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 7.276px;
+    text-transform: uppercase;
+}
+
+.contact-secondary {
+    color: #446EC2;
+    font-family: var(--main-font);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 7.276px;
+    text-transform: uppercase;
+}
+
+.contact-box-title {
+    padding: 22px;
+    color: #5B5973;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-box-input {
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    color: #9A9A9A;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-box-textarea-input {
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+}
+
+.contact-box-select-input.placeholder-selected {
+    font-family: var(--main-font);
+    color: darkgray;
+}
+
+.contact-info-main-container {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.contact-info-header {
+    color: #5B5973;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.contact-info-subheader {
+    color: #272638;
+    font-family: var(--main-font);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.contact-info-text {
+    margin-top: 16px;
+    width: 418px;
+    color: #5B5973;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contact-item-icon {
+    width: 53px;
+    height: 53px;
+    background-color: #64C574;
+    border-radius: 50%;
+    box-shadow: 18px 18px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.contact-item-title {
+    margin-left: 2rem;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.information-clause {
+    margin-left: 1rem;
+    width: 535px;
+    color: #29292A;
+    font-family: var(--main-font);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.096px;
+    text-align: left;
+}
+
+.contact-send-button {
+    cursor: pointer;
+    margin-top: 2rem;
+    width: 175px;
+    height: 69px;
+    border: none;
+    border-radius: 58px;
+    box-shadow: 0 9px 8px 0 rgba(255, 150, 90, 0.36);
+    background-color: #FF965A;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
