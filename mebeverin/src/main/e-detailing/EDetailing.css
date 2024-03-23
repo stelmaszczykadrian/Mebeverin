@@ -1,0 +1,92 @@
+.detailing-container {
+    background-image: url(../../assets/ManBackground.png);
+    width: 1920px;
+    height: 580px;
+    border-radius: 5px;
+}
+
+.detailing-content {
+    position: absolute;
+    left: 461px;
+    margin-top: 2rem;
+
+}
+
+.detailing-item {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.detailing-title {
+    width: 245px;
+    height: 53px;
+    border-radius: 178px;
+    background: #446EC2;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+
+.detailing-first-subtitle {
+    margin-top: 2rem;
+}
+.detailing-first-subtitle,
+.detailing-second-subtitle {
+    width: 360px;
+    color: #F6F9FF;
+    text-align: right;
+    font-family: var(--main-font);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.detailing-description {
+    margin-top: 2rem;
+    width: 388px;
+    color: #FFF;
+    text-align: right;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.detailing-button {
+    cursor: pointer;
+    margin-top: 2rem;
+    width: 175px;
+    height: 69px;
+    border: none;
+    border-radius: 58px;
+    box-shadow: 0 9px 8px 0 rgba(255, 150, 90, 0.36);
+    background-color: #FF965A;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.detailing-divider {
+    border-radius: 65px;
+    background: white;
+    width: 23px;
+    height: 5px;
+    margin-top: 15px;
+    left: 50%;
+    margin-bottom: 10px;
+}
