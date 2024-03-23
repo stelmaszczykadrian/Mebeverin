@@ -1,0 +1,207 @@
+.quiz-container {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.quiz-title {
+    margin-bottom: 30px;
+    width: 151px;
+    height: 53px;
+    border-radius: 178px;
+    background: #446EC2;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-divider {
+    border-radius: 65px;
+    background: #FF965A;
+    width: 23px;
+    height: 5px;
+    margin-top: 15px;
+    left: 50%;
+    margin-bottom: 20px;
+}
+
+.prize-container {
+    text-align: left;
+    margin-right: 15rem;
+}
+
+.quiz-content {
+    text-align: center;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.quiz-subtitle {
+    margin-bottom: 20px;
+    font-family: var(--main-font);
+    width: 500px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.quiz-second-subtitle {
+    width: 500px;
+    font-family: var(--main-font);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.reward-icon {
+    position: relative;
+    width: 245px;
+    height: 188px;
+    border-radius: 5px;
+    background: #F6F9FF;
+    box-shadow: 18px 18px 11.5px 0px rgba(68, 110, 194, 0.16);
+}
+
+.reward-circle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #FF965A;
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 18px 18px 12px rgba(0, 0, 0, 0.2);
+    transform: translate(50%, 50%);
+}
+
+.reward-amount {
+    color: #FFF;
+    font-family: var(--main-font);
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.reward-details {
+    margin-top: 2rem;
+    width: 140px;
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.reward-label {
+    margin-bottom: 20px;
+    width: 245px;
+    color: #446EC2;
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.quiz-rules-title {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 289px;
+    font-family: var(--main-font);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.quiz-rules-container {
+    display: flex;
+}
+
+.quiz-rule-description {
+    margin-top: 1rem;
+    width: 222px;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.quiz-rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F9FF;
+    width: 1920px;
+    height: 220px;
+    margin-bottom: 10rem;
+}
+
+.quiz-rule {
+    margin-left: 20px;
+    width: 245px;
+    height: 221px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 18px 18px 11.5px 0px rgba(68, 110, 194, 0.16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-icon {
+    margin-top: 40px;
+    background-color: #9D5DF9;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 18px 18px 12px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-number {
+    color:  #FFF;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.quiz-button {
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 12rem;
+    width: 254px;
+    height: 69px;
+    border: none;
+    border-radius: 58px;
+    box-shadow: 0 9px 8px 0 rgba(255, 150, 90, 0.36);
+    background-color: #FF965A;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
