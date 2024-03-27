@@ -1,7 +1,7 @@
 import './EDetailing.css';
 
-export default function EDetailing(){
-    return(
+export default function EDetailing() {
+    return (
         <div className="detailing-container" id="detailing">
             <div className="detailing-content">
                 <div className="detailing-item">

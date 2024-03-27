@@ -1,15 +1,17 @@
 .detailing-container {
     background-image: url(../../assets/ManBackground.png);
-    width: 1920px;
-    height: 580px;
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 5px;
+    position: relative;
 }
 
 .detailing-content {
     position: absolute;
     left: 461px;
     margin-top: 2rem;
-
+    margin-bottom: 2rem;
 }
 
 .detailing-item {
@@ -18,7 +20,6 @@
     flex-direction: column;
     align-items: flex-end;
 }
-
 
 .detailing-title {
     width: 245px;
@@ -39,6 +40,7 @@
 .detailing-first-subtitle {
     margin-top: 2rem;
 }
+
 .detailing-first-subtitle,
 .detailing-second-subtitle {
     width: 360px;
@@ -89,4 +91,44 @@
     margin-top: 15px;
     left: 50%;
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1200px)  {
+    .detailing-content {
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .detailing-item {
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .detailing-first-subtitle,
+    .detailing-second-subtitle {
+        width: 100%;
+        text-align: center;
+    }
+
+    .detailing-description {
+        width: 500px;
+        padding: 15px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 580px)  {
+    .detailing-first-subtitle,
+    .detailing-second-subtitle {
+        width: auto;
+        text-align: center;
+    }
+
+    .detailing-description {
+        padding: 5px;
+        text-align: center;
+        width: 350px;
+    }
 }
