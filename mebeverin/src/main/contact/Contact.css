@@ -4,7 +4,6 @@
     align-items: center;
     text-align: center;
     background-color: #F6F9FF;
-    width: 1920px;
 }
 
 .contact-header {
@@ -210,4 +209,53 @@
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1200px)  {
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .contact-subtitle {
+        width: auto;
+    }
+
+    .contact-info-main-container {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contact-info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-logo {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-flex {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 576px)  {
+    .contact-box-input {
+        width: auto;
+    }
+
+    .information-clause {
+        width: auto;
+    }
+
+    .contact-item-title {
+        margin-left: 20px;
+    }
+
+    .contact-flex {
+        width: 100%;
+    }
 }

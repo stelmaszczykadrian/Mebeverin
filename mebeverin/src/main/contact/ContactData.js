@@ -1,7 +1,7 @@
 import phoneSvg from "../../assets/svg/phone.svg";
 import mailSvg from "../../assets/svg/mail.svg";
 import locationSvg from "../../assets/svg/location.svg";
-import {greenColor, orangeColor, purpleColor} from "../../header/Data";
+import {greenColor, orangeColor, purpleColor} from "../../header/HeaderData";
 
 export const contactData = [
     {

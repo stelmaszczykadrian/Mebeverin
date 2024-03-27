@@ -1,4 +1,4 @@
-import {contactData} from "./Data";
+import {contactData} from "./ContactData";
 
 const ContactItemIcon = ({color, icon}) => (
     <div className="contact-item-icon" style={{backgroundColor: color}}>
@@ -12,7 +12,6 @@ const ContactItem = ({color, icon, title}) => (
         <div className="contact-item-title">{title}</div>
     </div>
 );
-
 
 export default function ContactInfo() {
     return (

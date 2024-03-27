@@ -1,6 +1,6 @@
 import {Box, Container, FormControl, Grid, MenuItem, Select, TextField,} from "@mui/material";
 import {useState} from "react";
-import {contactTopics} from "./Data";
+import {contactTopics} from "./ContactData";
 import Checkbox from "../../components/checkbox/Checkbox";
 
 export default function ContactForm() {
@@ -64,7 +64,6 @@ export default function ContactForm() {
                             />
 
                         </Grid>
-
                         <Grid item xs={12} sm={6}>
                             <FormControl fullWidth variant="outlined">
                                 <Select
@@ -87,7 +86,6 @@ export default function ContactForm() {
                                     ))}
                                 </Select>
                             </FormControl>
-
                         </Grid>
                         <Grid item xs={12}>
                             <TextField
@@ -113,7 +111,7 @@ export default function ContactForm() {
                                 przysługujących Państwu praw i naszych obowiązków dostępne są w Polityce Prywatności.
                             </div>
                         </div>
-                        <Box display="flex" justifyContent="left">
+                        <Box display="flex" justifyContent="center">
                             <button className="contact-send-button">Wyślij</button>
                         </Box>
                     </Grid>
