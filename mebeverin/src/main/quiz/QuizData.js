@@ -1,4 +1,4 @@
-import {blueColor, greenColor, orangeColor, purpleColor} from "../../header/Data";
+import {blueColor, greenColor, orangeColor, purpleColor} from "../../header/HeaderData";
 
 export const quizData = [
     {

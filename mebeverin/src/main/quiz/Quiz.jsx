@@ -1,5 +1,5 @@
 import './Quiz.css';
-import {quizData} from "./Data";
+import {quizData} from "./QuizData";
 
 const QuizIcon = ({color, number}) => (
     <div className="quiz-icon" style={{backgroundColor: color}}>
@@ -23,7 +23,8 @@ export default function Quiz() {
                         <div className="quiz-title">QUIZ</div>
                         <div className="quiz-subtitle">Odpowiedz na 3 pytania na temat meweberyny.</div>
                         <div className="quiz-divider"></div>
-                        <div className="quiz-second-subtitle">Sprawdź swoją wiedzę i zawalcz o nagrodę w quizie!</div>
+                        <div className="quiz-second-subtitle">Sprawdź swoją wiedzę i zawalcz o nagrodę w quizie!
+                        </div>
                     </div>
                     <div className="quiz-reward">
                         <div className="reward-label">Do wygrania:</div>
