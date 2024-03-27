@@ -1,8 +1,5 @@
-.video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5rem;
+#video {
+    margin-bottom: 2rem;
 }
 
 .video-header {
@@ -127,7 +124,7 @@
 .video-circle {
     position: absolute;
     bottom: 6rem;
-    right: 6rem;
+    right: 5rem;
     background-color: #FF965A;
     width: 71px;
     height: 71px;
@@ -141,4 +138,78 @@
 
 .video-image-container {
     position: relative;
+}
+
+.video-container {
+    display: flex;
+}
+
+.video-list-item-container {
+    display: grid;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1200px)  {
+    .video-container {
+        display: grid;
+    }
+
+    .video-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video-circle {
+        bottom: 2rem;
+        right: 2rem;
+    }
+
+    .video-content {
+        margin-left: 1.5rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-arrow-right-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 580px)  {
+    .video-list {
+        display: grid;
+    }
+
+    .video-image{
+        width: 250px;
+        height: 250px;
+    }
+
+    .video-list {
+        display: grid;
+        padding-bottom: 3rem;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .video-list-item {
+        margin: 0;
+        text-align: center;
+    }
+
+    .video-circle {
+        bottom: 1rem;
+        right: 4rem;
+    }
+
+    .video-description {
+        width: 100%;
+        font-family: var(--main-font);
+        line-height: 22px;
+        margin-bottom: 2rem;
+    }
 }
