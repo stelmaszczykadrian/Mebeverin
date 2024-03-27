@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { articles } from "./Data";
+import { articles } from "./ArticlesData";
 import './Articles.css';
 import arrowRightSvg from "../../assets/svg/arrow-right.svg";
 
@@ -14,7 +14,7 @@ export default function Articles() {
         <div className="articles-main-container" id="articles">
             <div className="articles-header">ARTYKUŁY</div>
             <div className="articles-container" id="slider">
-                <div style={{display: 'flex'}}>
+                <div className="article-wrapper">
                     <div className="article-image">
                         <img src={articles[currentIndex].image} alt="Article Thumbnail"/>
                         <div className="dots-container">
