@@ -6,11 +6,13 @@ import Quiz from "../main/quiz/Quiz";
 import Contact from "../main/contact/Contact";
 import Footer from "../footer/Footer";
 import Articles from "../main/articles/Articles";
+import Product from "../main/product/Product";
 
 export default function Home(){
     return(
         <>
             <Header/>
+            <Product/>
             <Video/>
             <Podcast/>
             <Articles/>
@@ -18,7 +20,6 @@ export default function Home(){
             <Quiz/>
             <Contact/>
             <Footer/>
-            <div className="white-content"></div>
         </>
     );
 }
