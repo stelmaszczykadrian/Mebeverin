@@ -1,7 +1,7 @@
 import multimediaSvg from "../assets/svg/multimedia.svg";
 import bookSvg from "../assets/svg/book.svg";
 import statisticsSvg from "../assets/svg/statistics.svg";
-import {greenColor, orangeColor, purpleColor} from "../header/Data";
+import {greenColor, orangeColor, purpleColor} from "../header/HeaderData";
 
 export const gateData = [
     {

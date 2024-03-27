@@ -179,3 +179,42 @@
 .gate-privacy-policy-container {
     margin-left: 1rem;
 }
+
+@media only screen and (max-width: 1200px)  {
+    .gate-items-container {
+        gap: 6rem;
+        flex-direction: column;
+    }
+
+    .privacy-policy-description-primary,
+    .privacy-policy-description-secondary {
+
+        width: 100%;
+
+    }
+
+    .gate-privacy-policy {
+        padding: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 580px)  {
+    .gate-title {
+        margin-top: 3rem;
+    }
+
+    .pwz-input {
+        width: 80%;
+    }
+
+    .gate-subtitle {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .gate-items-container {
+        margin-top: 7rem;
+    }
+}
