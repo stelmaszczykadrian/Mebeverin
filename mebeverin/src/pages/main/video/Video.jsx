@@ -1,7 +1,7 @@
 import './Video.css';
 import React, {useState} from "react";
-import arrowRightSvg from "../../assets/svg/arrow-right.svg";
-import polygonRight from '../../assets/svg/polygon-right.svg';
+import arrowRightSvg from "../../../assets/svg/arrow-right.svg";
+import polygonRight from '../../../assets/svg/polygon-right.svg';
 import {videos} from "./VideoData";
 
 export default function Video() {

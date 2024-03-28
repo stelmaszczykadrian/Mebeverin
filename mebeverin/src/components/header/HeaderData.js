@@ -1,9 +1,9 @@
-import shieldSvg from '../assets/svg/shield.svg';
-import documentsSvg from '../assets/svg/documents.svg';
-import microscopeSvg from '../assets/svg/microscope.svg';
-import arrowDownSvg from '../assets/svg/arrow-down.svg'
-import humanSvg from '../assets/svg/human.svg'
-import pillsSvg from '../assets/svg/pills.svg'
+import shieldSvg from '../../assets/svg/shield.svg';
+import documentsSvg from '../../assets/svg/documents.svg';
+import microscopeSvg from '../../assets/svg/microscope.svg';
+import arrowDownSvg from '../../assets/svg/arrow-down.svg'
+import humanSvg from '../../assets/svg/human.svg'
+import pillsSvg from '../../assets/svg/pills.svg'
 
 export const purpleColor = "#9D5DF9";
 export const greenColor = "#64C574";

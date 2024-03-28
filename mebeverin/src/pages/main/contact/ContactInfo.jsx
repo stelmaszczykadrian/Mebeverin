@@ -1,18 +1,5 @@
 import {contactData} from "./ContactData";
 
-const ContactItemIcon = ({color, icon}) => (
-    <div className="contact-item-icon" style={{backgroundColor: color}}>
-        <img src={icon} alt="shield"></img>
-    </div>
-);
-
-const ContactItem = ({color, icon, title}) => (
-    <div className="contact-item">
-        <ContactItemIcon color={color} icon={icon}/>
-        <div className="contact-item-title">{title}</div>
-    </div>
-);
-
 export default function ContactInfo() {
     return (
         <div className="contact-info-main-container">
@@ -21,7 +8,6 @@ export default function ContactInfo() {
                 <span className="contact-secondary">EVERIN</span>
             </div>
             <div className="contact-info-container">
-
                 <div className="contact-flex">
                     {contactData.map(product => (
                         <ContactItem
@@ -37,3 +23,16 @@ export default function ContactInfo() {
         </div>
     );
 }
+
+const ContactItemIcon = ({color, icon}) => (
+    <div className="contact-item-icon" style={{backgroundColor: color}}>
+        <img src={icon} alt="shield"></img>
+    </div>
+);
+
+const ContactItem = ({color, icon, title}) => (
+    <div className="contact-item">
+        <ContactItemIcon color={color} icon={icon}/>
+        <div className="contact-item-title">{title}</div>
+    </div>
+);

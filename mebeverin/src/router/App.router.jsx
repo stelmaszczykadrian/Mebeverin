@@ -1,6 +1,6 @@
 import {Route, Routes} from "react-router-dom";
-import Home from "../pages/Home";
-import Gate from "../gate/Gate";
+import Home from "../pages/main/Home";
+import Gate from "../pages/gate/Gate";
 
 export const AppRouter = () => {
     return (

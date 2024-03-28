@@ -1,6 +1,6 @@
 import './Header.css';
 import {navigationItems, servicesData} from "./HeaderData";
-import CustomNavbar from "../components/navbar/Navbar";
+import CustomNavbar from "../navbar/Navbar";
 
 export default function Header() {
     return (
@@ -36,7 +36,7 @@ export default function Header() {
 
 const ServiceIcon = ({color, icon}) => (
     <div className="service-icon" style={{backgroundColor: color}}>
-        <img src={icon} alt="shield"></img>
+        <img src={icon} alt="Shield"></img>
     </div>
 );
 

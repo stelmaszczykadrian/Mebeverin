@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { articles } from "./ArticlesData";
 import './Articles.css';
-import arrowRightSvg from "../../assets/svg/arrow-right.svg";
+import arrowRightSvg from "../../../assets/svg/arrow-right.svg";
 
 export default function Articles() {
     const [currentIndex, setCurrentIndex] = useState(0);

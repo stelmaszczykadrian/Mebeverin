@@ -1,6 +1,6 @@
 import './Product.css';
-import boxes from "../../assets/Boxes.png";
-import {productsData} from "../../header/HeaderData";
+import boxes from "../../../assets/Boxes.png";
+import {productsData} from "../../../components/header/HeaderData";
 
 export default function Product(){
     return (
@@ -9,7 +9,7 @@ export default function Product(){
             <div className="product-subtitle">Benefits and Advantages</div>
             <div className="product-info">
                 <div>
-                    <img className="product-info-image" src={boxes}></img>
+                    <img className="product-info-image" src={boxes} alt="Boxes"></img>
                 </div>
                 <div className="product-items">
                     {productsData.map(product => (
@@ -30,7 +30,7 @@ export default function Product(){
 
 const ProductItemIcon = ({color, icon}) => (
     <div className="product-item-icon" style={{backgroundColor: color}}>
-        <img src={icon} alt="shield"></img>
+        <img src={icon} alt="Shield"></img>
     </div>
 );
 

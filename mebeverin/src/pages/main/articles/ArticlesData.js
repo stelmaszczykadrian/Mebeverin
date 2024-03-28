@@ -1,4 +1,4 @@
-import image from '../../assets/AdobeStock_304369278.png';
+import image from '../../../assets/AdobeStock_304369278.png';
 
 export const articles = [
     {

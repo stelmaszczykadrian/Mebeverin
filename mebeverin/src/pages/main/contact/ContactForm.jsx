@@ -1,7 +1,7 @@
 import {Box, Container, FormControl, Grid, MenuItem, Select, TextField,} from "@mui/material";
 import {useState} from "react";
 import {contactTopics} from "./ContactData";
-import Checkbox from "../../components/checkbox/Checkbox";
+import Checkbox from "../../../components/checkbox/Checkbox";
 
 export default function ContactForm() {
     const [selectedValue, setSelectedValue] = useState('a');

@@ -1,7 +1,7 @@
 import './Podcast.css';
 import {podcasts} from "./PodcastData";
-import arrowLeftSvg from "../../assets/svg/arrow-left.svg";
-import arrowRightSvg from "../../assets/svg/arrow-right.svg";
+import arrowLeftSvg from "../../../assets/svg/arrow-left.svg";
+import arrowRightSvg from "../../../assets/svg/arrow-right.svg";
 import React, {useRef, useState} from "react";
 
 export default function Podcast(){
@@ -51,7 +51,7 @@ export default function Podcast(){
                         ))}
                     </div>
                     <div className="podcast-container">
-                        <img className="podcast-image" src={currentPodcast.image} alt="Podcast image"></img>
+                        <img className="podcast-image" src={currentPodcast.image} alt="Medicine bottle"></img>
                         <div className="podcast-arrows">
                             <a className="podcast-arrow-left" onClick={playPreviousPodcast}>
                                 <img src={arrowLeftSvg} alt="Arrow Left"/>

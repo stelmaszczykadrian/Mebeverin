@@ -1,4 +1,4 @@
-import ibsTherapy from "../../assets/IBSTeraphy.png";
+import ibsTherapy from "../../../assets/IBSTeraphy.png";
 
 export const videos = [
     {

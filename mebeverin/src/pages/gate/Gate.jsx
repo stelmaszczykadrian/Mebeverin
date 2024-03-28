@@ -1,8 +1,8 @@
 import './Gate.css'
 import {gateData} from "./GateData";
 import {Link} from 'react-router-dom';
-import Footer from "../footer/Footer";
-import Checkbox from "../components/checkbox/Checkbox";
+import Footer from "../../components/footer/Footer";
+import Checkbox from "../../components/checkbox/Checkbox";
 
 const GateIcon = ({color, icon}) => (
     <div className="gate-icon" style={{backgroundColor: color}}>

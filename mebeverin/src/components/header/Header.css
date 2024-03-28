@@ -29,7 +29,7 @@
 }
 
 .header-container {
-    background-image: url(../assets/HeaderBackground.jpg);
+    background-image: url(../../assets/HeaderBackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 845px;
@@ -281,6 +281,15 @@
         z-index: 2;
         width: 100%;
     }
+
+    .navbar-toggler {
+        margin-right: 3rem;
+    }
+
+    .nav-item {
+        padding-bottom: 0.5rem;
+        padding-left: 2.5rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -301,7 +310,6 @@
         top: 50%;
         left: 50%;
     }
-
 
     .service-item {
         width: 300px;
@@ -327,6 +335,19 @@
         bottom: -10px;
         width: 275px;
     }
+
+    .logo-primary,
+    .logo-secondary {
+        font-size: 26px;
+    }
+
+    .navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    .nav-item {
+        padding-left: 2rem;
+    }
 }
 
 @media only screen and (max-width: 400px)  {
@@ -340,8 +361,4 @@
         margin-left: 0;
     }
 
-    .logo-primary,
-    .logo-secondary {
-        font-size: 26px;
-    }
 }
